@@ -1,4 +1,4 @@
-import random, sys
+import random
 
 print("Hello, welcome to the Silly Name Generator! \n")
 # Load a list of first names
