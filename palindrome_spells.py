@@ -7,3 +7,4 @@ for word in file: # Loop through each word in the word list:
         lst.append(word) # Append word to the palindrome list
 x = x.join(lst)
 print(x) # Print palindrome list
+file.close()
