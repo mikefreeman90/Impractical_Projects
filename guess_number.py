@@ -1,6 +1,7 @@
 import random
 num = random.randint(1,15)
 tries = 1
+guess = 0
 
 user_name = input("Hello, what is your username? \n")
 print("Hello " + user_name)
@@ -8,7 +9,6 @@ print("Hello " + user_name)
 question = input("Would you like to play a game? [y/n] ")
 if question == "y" or question == "Y":
     print("I am thinking of a number between 1 and 15")
-    guess = 0
     while guess != num:
         guess = int(input("Guess the number: "))
         if guess > num:
